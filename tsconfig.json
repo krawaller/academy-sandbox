@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "lib": ["dom"],
     "types": ["jquery"]
   }
 }
