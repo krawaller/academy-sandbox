@@ -14,6 +14,9 @@
     "webpack-notifier": "^1.6.0"
   },
   "scripts": {
+    "lint-ts": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint-less": "stylelint styles.less",
+    "lint": "npm run lint-ts && npm run lint-less",
     "setupdist": "node setupdist",
     "less": "lessc styles/main.less dist/styles.css",
     "less-watch": "less-watch styles/main.less dist/styles.css",

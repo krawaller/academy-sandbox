@@ -2,8 +2,11 @@
     "defaultSeverity": "error",
     "jsRules": {},
     "rules": {
-        "no-empty": true
+        "no-empty": true,
+        "object-literal-sort-keys": false,
+        "trailing-comma": false
     },
+    "extends": "tslint:recommended",
     "rulesDirectory": [],
     "linterOptions": {
         "exclude": ["node_modules"]
